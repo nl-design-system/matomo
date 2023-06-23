@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" class="utrecht-theme utrecht-html-content">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="robots" content="noindex,follow" />
+    <meta name="author" content="Gemeente Utrecht" />
+    <title>
+      Matomo gebruiken voor inzicht in user preferences &#124; Gemeente Utrecht
+    </title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@utrecht/component-library-css/dist/bem.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@utrecht/component-library-css/dist/html.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://unpkg.com/@utrecht/design-tokens/dist/index.css"
+    />
+    <style>
+      .url {
+        font-variant-ligatures: none;
+      }
+    </style>
+  </head>
+  <body class="utrecht-html">
+    <div class="utrecht-page">
+      <div class="utrecht-page-content">
+        <article>
+          <header>
+            <div class="utrecht-pre-heading">Meten is weten</div>
+            <h1>
+              Matomo gebruiken voor inzicht in <i lang="en">user preferences</i>
+            </h1>
+          </header>
+          <p class="utrecht-paragraph utrecht-paragraph--lead">
+            Lees hieronder de JSON code die naar Matamo wordt gestuurd.
+          </p>
+          <figure>
+            <pre
+              class="utrecht-code-block"
+            ><code class="utrecht-code-block__code" id="json">null</code></pre>
+            <figcaption>
+              JSON in <code class="utrecht-code">window._paq</code>
+            </figcaption>
+          </figure>
+        </article>
+      </div>
+    </div>
+    <script>
+      window._paq = [];
+    </script>
+    <script src="media-query-matomo.js"></script>
+    <script src="display-matomo.js"></script>
+  </body>
+</html>
