@@ -1,0 +1,7 @@
+{
+  "version": "1.0.0-alpha.0",
+  "author": "Community for NL Design System",
+  "description": "Track user preferences in Matomo, to help prioritise design system work",
+  "license": "EUPL-1.2",
+  "name": "@nl-design-system-unstable/themes"
+}
